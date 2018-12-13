@@ -1,15 +1,14 @@
 {
   "name": "trungitcse/laravel-comment",
   "description": "Comments System with Laravel And VueJs",
-  "type": "php",
-  "license": "1.0",
+  "keywords": ["laravel", "laravel comment"],
+  "license": "MIT",
   "authors": [
     {
       "name": "TrungLe",
       "email": "trungit.cse@gmail.com"
     }
   ],
-  "minimum-stability": "dev",
   "require": {
     "php": "^7.1.3"
   },
@@ -17,5 +16,11 @@
     "psr-4": {
       "TrungLe\\LaravelComment\\": "src/"
     }
-  }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TrungLe\\Tests\\LaravelComment\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable"
 }
